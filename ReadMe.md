@@ -8,7 +8,7 @@ AnimationParametersViewer.unitypackageをインポートして下さい
 Assets/AnimationParametersViewer フォルダを削除して下さい
 
 # 何に使うもの？
-主としてFXレイヤの開発を行う時のAnimationParametersをリアルタイムに確認する目的で作成しました。
+主としてFXレイヤの開発を行う時のAnimationParametersをリアルタイムに確認する目的で作成しました。  
 ExpressionParametersでなくても表示されます。
 
 # 使用法(FXを想定)
@@ -26,8 +26,8 @@ ExpressionParametersでなくても表示されます。
 https://github.com/pandravrc/AnimationParametersViewer
 
 # 依存関係
-Lyuma's Avatars 3.0 Emulatorに依存します。
-https://booth.pm/ja/items/3480610　
+Lyuma's Avatars 3.0 Emulatorに依存します。  
+https://booth.pm/ja/items/3480610
 （VCC経由の導入が推奨です。）
 
 # 開発・動作環境
