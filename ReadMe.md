@@ -11,7 +11,7 @@ Assets/AnimationParametersViewer フォルダを削除して下さい
 主としてFXレイヤの開発を行う時のAnimationParametersをリアルタイムに確認する目的で作成しました。
 ExpressionParametersでなくても表示されます。
 
-#使用法(FXを想定)
+# 使用法(FXを想定)
 - Av3 EmulatorをVCCからプロジェクトに追加
 - UnityのToolsメニュー→Avatars 3.0 Emulator→Enableをクリック
 - UnityのToolsメニュー→Avatars 3.0 Emulator→Settings→「Default Animator To Debug」を「FX」に設定
