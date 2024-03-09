@@ -23,7 +23,7 @@ ExpressionParametersでなくても表示されます。
 毎F処理をしているので環境によって重くなる可能性があります。
 
 # Source Code
-https://github.com/pandravrc/DBTPractice
+https://github.com/pandravrc/AnimationParametersViewer
 
 # 依存関係
 Lyuma's Avatars 3.0 Emulatorに依存します。
