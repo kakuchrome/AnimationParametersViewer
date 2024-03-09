@@ -27,7 +27,8 @@ https://github.com/pandravrc/AnimationParametersViewer
 
 # 依存関係
 Lyuma's Avatars 3.0 Emulatorに依存します。
-https://booth.pm/ja/items/3480610　（VCC経由の導入が推奨です。）
+https://booth.pm/ja/items/3480610　
+（VCC経由の導入が推奨です。）
 
 # 開発・動作環境
 次の環境で開発し、動作を確認しています。
