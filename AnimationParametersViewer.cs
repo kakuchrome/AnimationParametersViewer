@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UIElements;
 using VRC.SDK3.Avatars.Components;
 
 public class PAPV : EditorWindow
@@ -20,6 +21,7 @@ public class PAPV : EditorWindow
         }
     }
     bool _isFolded = true;
+    string stxt;
     void OnGUI()
     {
         minSize = new Vector2(350, 400);
@@ -48,6 +50,8 @@ public class PAPV : EditorWindow
         int[] columnsizes = { 200, 50, 100 };
         if (animatorParameters != null)
         {
+
+            stxt = EditorGUILayout.TextField("Search: ", stxt);
             EditorGUILayout.BeginHorizontal();
             EditorGUILayout.LabelField("Name", GUILayout.Width(columnsizes[0]));
             EditorGUILayout.LabelField("Type", GUILayout.Width(columnsizes[1]));
@@ -56,6 +60,7 @@ public class PAPV : EditorWindow
             EditorGUILayout.BeginVertical("box");
             foreach (var param in animatorParameters)
             {
+                if (!param.name.Contains(stxt)) { continue; }
                 EditorGUILayout.BeginHorizontal();
                 EditorGUILayout.LabelField(param.name, GUILayout.Width(columnsizes[0]));
                 EditorGUILayout.LabelField(param.type.ToString(), GUILayout.Width(columnsizes[1]));
