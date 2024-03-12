@@ -16,7 +16,7 @@ ExpressionParametersでなくても表示されます。
 - UnityのToolsメニュー→Avatars 3.0 Emulator→Enableをクリック
 - UnityのToolsメニュー→Avatars 3.0 Emulator→Settings→「Default Animator To Debug」を「FX」に設定
 - AnimationParametersViewer.unitypackageをインポート
-- UnityのAPVメニュー→Viewをクリック
+- UnityのWindowメニュー→AnimationParametersViewerをクリック
 - UnityのPlayボタンをクリック
 
 # 注意
