@@ -8,7 +8,7 @@ using VRC.SDK3.Avatars.Components;
 
 public class PAPV : EditorWindow
 {
-    [MenuItem("APV/View")]
+    [MenuItem("Window/AnimationParametersViewer")]
     public static void OpenWindow()
     {
         GetWindow<PAPV>(false, "AnimationParametersViewer", true);
